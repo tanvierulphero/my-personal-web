@@ -1,6 +1,10 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
 ul{
     list-style-type: none;
-    margin-left: 70%;
+    margin-left: 65%;
     overflow: hidden;
     background-color: white;
    
@@ -16,4 +20,51 @@ li a{
     padding-right: 30px;
     text-decoration: none;
     font-size: 20px;
-        }
+    }
+    
+h1{
+    font-size: 60px;
+    font-style: inherit;
+    }
+.name-color{
+    color: coral;
+    }
+.btn{
+    border: none;
+    border-radius: 10px;
+    background-color: lightcoral;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 20px;
+    }
+.halfwidth{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    align-items: center;
+    }
+img{
+    max-width: 100%;
+    }
+h3{
+    font-size: 50px;
+    }
+.LASTET{
+    color: coral;
+    }
+.work{
+    padding-left: 5px;
+}
+.work{
+    margin-top: 90%;
+    text-align: center;
+}
+.quater-width{
+    width: 25%;
+    float: left;;
+    margin-left: 5%;
+    padding-left: 5px;
+    }
