@@ -75,22 +75,51 @@ h3{
     margin-top: 50%;
 }
 
-
-h6{
-    text-align: center;
-    color: gray;
-}
-h2{
-    text-align: center;
-    color: rgba(54, 57, 88, 1);
-}
-.center{
-    width: 10%;
+.text{
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 10px;
+    margin-top: 50%;
+    background: url(images/Group_33094_1.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+   
+   
 }
-.size{
-    width: 25px;
-    padding-left: 8%;
+.text h1{
+   margin: 0;
+   padding: 100px;
+   font-size: 40px;
+   font-family: fantasy;
+   text-transform: uppercase;
+   text-align: left;
+   position: relative;
+   
+   color: white;
+}
+.text button{
+    display: fixed;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    padding: 20px ;
+    position: absolute;
+    left: 70%;
+    bottom: 40%;
+    
+    
+}
+.stay p{
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: rgba(54,57,88,1);
 }
